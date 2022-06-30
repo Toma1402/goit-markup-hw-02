@@ -1,0 +1,68 @@
+/* Колір основного тексту #212121 */
+/* Колір другорядного тексту #757575 */
+/* білий  #FFFFFF */
+/* background основний(темний)  #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white: #ffffff;
+  --primary-background: #2f303a;
+  --hover-focus: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+}
+/* header section */
+.logo {
+  color: var(--hover-focus);
+}
+.studio {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+.header-link {
+  color: var(--primary-text-color);
+}
+.header-link:hover,
+.header-link:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--hover-focus);
+}
+.contact {
+  color: var(--secondary-text-color);
+}
+/* main section */
+.main-title {
+  color: var(--white);
+}
+.main-btm {
+  color: var(--white);
+}
+.list-title {
+  color: var(--primary-text-color);
+}
+.list-text {
+  color: var(--secondary-text-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+.team-person {
+  color: var(--primary-text-color);
+}
+.position {
+  color: var(--secondary-text-color);
+}
+/* footer section */
+.footer .studio {
+  color: var(--white);
+}
+.address-text {
+  color: var(--white);
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}

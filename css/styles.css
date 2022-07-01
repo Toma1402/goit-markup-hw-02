@@ -137,7 +137,7 @@ body {
 .footer {
   background-color: var(--primary-backgr-cl);
 }
-.footer-style {
+.address {
   font-style: normal;
 }
 .address-text,

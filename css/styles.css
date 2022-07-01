@@ -147,6 +147,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /* PORTFOLIO PAGE */
+.visually-hidden {
+  visibility: hidden;
+}
 .portfolio-title {
   font-size: 18px;
   line-height: calc(36 / 18);

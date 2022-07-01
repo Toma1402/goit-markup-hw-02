@@ -6,18 +6,27 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --white: #ffffff;
-  --primary-background: #2f303a;
-  --hover-focus: #2196f3;
+  --primary-backgr-cl: #2f303a;
+  --accent-cl: #2196f3;
+
+  --main-font: 'Roboto', sans-serif;
+  --secondaty-font: 'Raleway', sans-serif;
 }
 body {
+  font-family: var(--main-font);
   color: var(--primary-text-color);
 }
 /* header section */
 .logo {
-  color: var(--hover-focus);
+  color: var(--accent-cl);
 }
 .studio {
   color: #000000;
+}
+/* reset styles */
+.link {
+  text-decoration: none;
+  color: currentColor;
 }
 .list {
   list-style: none;
@@ -29,7 +38,7 @@ body {
 .header-link:focus,
 .contact:hover,
 .contact:focus {
-  color: var(--hover-focus);
+  color: var(--accent-cl);
 }
 .contact {
   color: var(--secondary-text-color);

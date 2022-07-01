@@ -148,7 +148,7 @@ body {
 }
 /* PORTFOLIO PAGE */
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 .portfolio-title {
   font-size: 18px;
